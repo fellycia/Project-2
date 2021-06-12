@@ -2,7 +2,7 @@
 Ames Housing Data and Kaggle Challenge
 
 ## Problem Statement
-To identify the most relevant features from the Ames Housing Dataset and create a regression model that will most accurately generate predictions of the sales price of each house. Thereafter, submit predictions for test dataset to Kaggle to see how the model does against unknown data and find insights from the analysis.
+To identify the most relevant features from the Ames Housing Dataset and create a regression model that will most accurately generate predictions of the sales price of each house. Thereafter, submit predictions for test dataset to Kaggle to see how the model does against unknown data and make recommendations on how to improve the house value.
 
 ## Executive Summary
 This report aims to build a regression model to predict the sale price of the house. Selected features from train dataset were fit into the models and via cross validation, their root mean square errors (rmse) were compared. The score with the lowest rmse was used to make prediction of the house price.
@@ -111,3 +111,11 @@ The limitations of this mode include:
 2) Limited to data provided in the same format as the original training dataset, where compulsory data/parameters are the variables used in the model
 
 Submission to kaggle was made and a public score of 33317.70280 was obtained.
+
+## Recommendations
+To improve the value of the house, homeowners could:
+
+Focus on the overall materials and finish of the house.
+Not focus on increasing the number of bathrooms, number of kitchens above grade and enclosed porch as they do not seem to help appreciate the house price.
+Buy houses in neighborhood with a larger range of sale price, like NridgHt and StoneBr.
+This model would not generalise well on other cities as the features used are limited to the neighborhoods in the train set and the features inputted into the model is necessary. One way we can help to generalise is to obtain the average family income in the neighborhood so as to categorise the neighborhoods according to the average family income.
