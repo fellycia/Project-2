@@ -39,9 +39,9 @@ Four types of regression models - linear, ridge, lasso and elastic were tested a
 |**Year Built**|*integer*|train/test|Original construction date| 
 |**Year Remod/Add**|*integer*|train/test|Remodel date (same as construction date if there is no remodeling or additions| 
 |**Roof Style**|*object*|train/test|Type of roof| 
-|**Roof Mat1**|*object*|train/test|Roof material| 
-|**Exterior 1**|*object*|train/test|Exterior covering on house| 
-|**Exterior 2**|*object*|train/test|Exterior covering on house (if there is a second material|
+|**Roof Matl**|*object*|train/test|Roof material| 
+|**Exterior 1st**|*object*|train/test|Exterior covering on house| 
+|**Exterior 2nd**|*object*|train/test|Exterior covering on house (if there is a second material|
 |**Mas Vnr Type**|*object*|train/test|Masonry veneer type| 
 |**Mas Vnr Area**|*float*|train/test|Masonry veneer area in square feet| 
 |**Exter Qual**|*object*|train/test|Evaluates the quality of the material on the exterior| 
@@ -68,13 +68,13 @@ Four types of regression models - linear, ridge, lasso and elastic were tested a
 |**Bsmt Half Bath**|*float*|train/test|Basement half bathrooms|
 |**Full Bath**|*integer*|train/test|Full bathrooms above grade| 
 |**Half Bath**|*integer*|train/test|Half baths above grade|
-|**Bedroom**|*integer*|train/test|Bedrooms above grade (does not include basement bedrooms)|
-|**Kitchen**|*integer*|train/test|Kitchens above grade|
+|**Bedroom AbvGr**|*integer*|train/test|Bedrooms above grade (does not include basement bedrooms)|
+|**Kitchen AbvGr**|*integer*|train/test|Kitchens above grade|
 |**KitchenQual**|*object*|train/test|Kitchen quality|
-|**TotRmsAbvGrd**|*integer*|train/test|Total rooms above grade (does not include bathrooms)|
+|**TotRms AbvGrd**|*integer*|train/test|Total rooms above grade (does not include bathrooms)|
 |**Functional**|*object*|train/test|Home functionality (assume typical unless deductions are warranted)|
 |**Fireplaces**|*integer*|train/test|Number of fireplaces|
-|**FireplaceQu**|*object*|train/test|Fireplace quality|
+|**Fireplace Qu**|*object*|train/test|Fireplace quality|
 |**Garage Type**|*object*|train/test|Garage location| 
 |**Garage Yr Blt**|*float*|train/test|Years garage was built| 
 |**Garage Finish**|*object*|train/test|Interior finish of the garage| 
@@ -86,7 +86,7 @@ Four types of regression models - linear, ridge, lasso and elastic were tested a
 |**Wood Deck SF**|*integer*|train/test|Wood deck area in square feet| 
 |**Open Porch SF**|*integer*|train/test|Open porch area in square feet| 
 |**Enclosed Porch**|*integer*|train/test|Enclosed porch area in square feet| 
-|**3-Ssn Porch**|*integer*|train/test|Three season porch area in square feet| 
+|**3Ssn Porch**|*integer*|train/test|Three season porch area in square feet| 
 |**Screen Porch**|*integer*|train/test|Screen porch area in square feet| 
 |**Pool Area**|*integer*|train/test|Pool area in square feet| 
 |**Pool QC**|*object*|train/test|Pool quality| 
@@ -96,7 +96,6 @@ Four types of regression models - linear, ridge, lasso and elastic were tested a
 |**Mo Sold**|*integer*|train/test|Month sold| 
 |**Yr Sold**|*integer*|train/test|Year sold| 
 |**Sale Type**|*integer*|train/test|Type of sale| 
-|**Sale Condition**|*object*|train/test|Condition of sale| 
 |**SalePrice**|*integer*|train|Sale price|
 
 ## Conclusions
