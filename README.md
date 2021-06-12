@@ -115,7 +115,8 @@ Submission to kaggle was made and a public score of 33317.70280 was obtained.
 ## Recommendations
 To improve the value of the house, homeowners could:
 
-Focus on the overall materials and finish of the house.
-Not focus on increasing the number of bathrooms, number of kitchens above grade and enclosed porch as they do not seem to help appreciate the house price.
-Buy houses in neighborhood with a larger range of sale price, like NridgHt and StoneBr.
+- Focus on the overall materials and finish of the house.
+- Not focus on increasing the number of bathrooms, number of kitchens above grade and enclosed porch as they do not seem to help appreciate the house price.
+- Buy houses in neighborhood with a larger range of sale price, like NridgHt and StoneBr.
+
 This model would not generalise well on other cities as the features used are limited to the neighborhoods in the train set and the features inputted into the model is necessary. One way we can help to generalise is to obtain the average family income in the neighborhood so as to categorise the neighborhoods according to the average family income.
